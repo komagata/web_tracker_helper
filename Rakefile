@@ -5,10 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "web_tracker_helper"
-    gem.summary = %Q{TODO}
+    gem.summary = %Q{A small helper for Web Tracker}
     gem.email = "komagata@gmail.com"
     gem.homepage = "http://github.com/komagata/web_tracker_helper"
-    gem.authors = ["komagata"]
+    gem.authors = ["Masaki Komagata"]
+    gem.files = FileList["lib/*.rb", "*.rb", "test/*.rb"].to_a
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 

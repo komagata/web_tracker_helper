@@ -1,7 +1,17 @@
 = web_tracker_helper
 
-Description goes here.
+A small helper for Web Tracker.
+
+== INSTALATION
+
+  $ sudo gem install komagata-web_tracker_helper -s http://gems.github.com
+
+== USAGE
+
+use tracking_code rails view file.
+
+  <%= tracking_code 'foo.bar.com', 'xxxxxxxxxxxxx' if Rails.env.production? %>
 
 == Copyright
 
-Copyright (c) 2009 komagata. See LICENSE for details.
+Copyright (c) 2009 Masaki Komagata <komagata@gmail.com>. See LICENSE for details.

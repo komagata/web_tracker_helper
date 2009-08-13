@@ -5,7 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "web_tracker_helper"
-    gem.summary = %Q{A small helper for Web Tracker}
+    gem.summary = %Q{A small rails helper plugin for Web Tracker}
+    gem.description = %Q{A small rails helper plugin for Web Tracker.}
     gem.email = "komagata@gmail.com"
     gem.homepage = "http://github.com/komagata/web_tracker_helper"
     gem.authors = ["Masaki Komagata"]

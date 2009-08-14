@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{web_tracker_helper}
-  s.version = "0.2.0"
+  s.version = "0.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Masaki Komagata"]
-  s.date = %q{2009-08-13}
+  s.date = %q{2009-08-14}
   s.description = %q{A small rails helper plugin for Web Tracker.}
   s.email = %q{komagata@gmail.com}
   s.extra_rdoc_files = [
